@@ -9081,7 +9081,7 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "https://63493c8c7e3b2f226a20efd0--soft-unicorn-d82f5d.netlify.app/";
+/******/ 		__webpack_require__.p = "https://6349564dc33d263f1e9a1dbd--soft-unicorn-d82f5d.netlify.app/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/consumes */

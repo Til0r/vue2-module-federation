@@ -369,32 +369,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "webpack/sharing/consume/default/vue/vue");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue */ "./src/App.vue");
-// import Vue from "vue";
-// import App from "./App.vue";
-
-// Vue.config.productionTip = false;
-
-// // new Vue({
-// //   render: (h) => h(App),
-// // }).$mount('#app');
-
-// export class ModuleFederationVue extends HTMLElement {
-//   connectedCallback() {
-//     new Vue(App).$mount("#app");
-//   }
-// }
-
-// customElements.define("vue-element", ModuleFederationVue);
-
 
 
 
 class MfeVue extends HTMLElement {
   connectedCallback() {
     console.log(this);
-    console.log("capocchioneCaklsdnjaskldjklasjdklasj");
     new (vue__WEBPACK_IMPORTED_MODULE_0___default())(_App_vue__WEBPACK_IMPORTED_MODULE_1__["default"]).$mount(this);
-    console.log("capocchione12");
   }
 }
 
@@ -409,7 +390,7 @@ customElements.define("vue-element", MfeVue);
   \**********************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"name":"vue-project2","version":"0.1.4","private":true,"scripts":{"serve":"vue-cli-service serve","build":"npm version patch --no-git-tag-version && webpack-cli build","lint":"vue-cli-service lint","start":"webpack-cli serve"},"dependencies":{"core-js":"^3.8.3","vue":"^2.6.14"},"devDependencies":{"@babel/core":"^7.12.16","@babel/eslint-parser":"^7.12.16","@vue/cli-plugin-babel":"~5.0.0","@vue/cli-plugin-eslint":"~5.0.0","@vue/cli-service":"~5.0.0","css-loader":"^6.7.1","dart-sass":"^1.25.0","eslint":"^7.32.0","eslint-plugin-vue":"^8.0.3","html-webpack-plugin":"^5.5.0","less":"^4.1.3","less-loader":"^11.1.0","mini-css-extract-plugin":"^2.6.1","process":"^0.11.10","sass":"^1.55.0","sass-loader":"^13.1.0","stylus":"^0.59.0","stylus-loader":"^7.1.0","url-loader":"^4.1.1","vue-loader":"^15.0.0","vue-template-compiler":"^2.6.14","webpack":"^5.74.0","webpack-cli":"^4.10.0","webpack-dev-server":"^4.11.1"},"eslintConfig":{"root":true,"env":{"node":true},"extends":["plugin:vue/essential","eslint:recommended"],"parserOptions":{"parser":"@babel/eslint-parser"},"rules":{}},"browserslist":["> 1%","last 2 versions","not dead"]}');
+module.exports = JSON.parse('{"name":"vue-project2","version":"0.1.7","private":true,"scripts":{"serve":"vue-cli-service serve","build":"npm version patch --no-git-tag-version && webpack-cli build","lint":"vue-cli-service lint","start":"webpack-cli serve"},"dependencies":{"core-js":"^3.8.3","vue":"^2.6.14"},"devDependencies":{"@babel/core":"^7.12.16","@babel/eslint-parser":"^7.12.16","@vue/cli-plugin-babel":"~5.0.0","@vue/cli-plugin-eslint":"~5.0.0","@vue/cli-service":"~5.0.0","css-loader":"^6.7.1","dart-sass":"^1.25.0","eslint":"^7.32.0","eslint-plugin-vue":"^8.0.3","html-webpack-plugin":"^5.5.0","less":"^4.1.3","less-loader":"^11.1.0","mini-css-extract-plugin":"^2.6.1","process":"^0.11.10","sass":"^1.55.0","sass-loader":"^13.1.0","stylus":"^0.59.0","stylus-loader":"^7.1.0","url-loader":"^4.1.1","vue-loader":"^15.0.0","vue-template-compiler":"^2.6.14","webpack":"^5.74.0","webpack-cli":"^4.10.0","webpack-dev-server":"^4.11.1"},"eslintConfig":{"root":true,"env":{"node":true},"extends":["plugin:vue/essential","eslint:recommended"],"parserOptions":{"parser":"@babel/eslint-parser"},"rules":{}},"browserslist":["> 1%","last 2 versions","not dead"]}');
 
 /***/ })
 

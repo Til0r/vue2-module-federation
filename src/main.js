@@ -1,6 +1,7 @@
+import "./installCompositionApi.js";
 import Vue from "vue";
-import App from "./App.vue";
 
+import App from "./App.vue";
 export class MfeVue extends HTMLElement {
   connectedCallback() {
     console.log(this);

@@ -4,7 +4,7 @@ const { ModuleFederationPlugin } = require("webpack").container;
 const { VueLoaderPlugin } = require("vue-loader");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const port = 8080;
+const port = 8081;
 const deps = require("./package.json");
 
 module.exports = {
@@ -18,7 +18,7 @@ module.exports = {
   entry: path.resolve(__dirname, "./src/main.js"),
   output: {
     path: path.resolve(__dirname, "./dist"),
-    publicPath: `http://localhost${port}`,
+    publicPath: `http://localhost:${port}`,
   },
   resolve: {
     extensions: [".ts", ".js", ".vue", ".json"],
